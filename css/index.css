@@ -1,3 +1,5 @@
+
+
 A:link {text-decoration: none }
 A:visited{
     color: black;
@@ -21,6 +23,6 @@ A:hover{
 }
 
 .textoNormal{
-    font-size: 1.158129rem;
-    margin-bottom: -1px;
+    margin-bottom: -0.1px;
+    color: white;
 }

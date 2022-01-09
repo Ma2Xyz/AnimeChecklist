@@ -12,12 +12,17 @@
     <link rel="stylesheet" href="css/index.css">
     <title>Anime Checklist</title>
 </head>
-<body>
+<body class="bg-dark">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="img/prueba.png" alt="" style="height:48px; width:120px;"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <a class="navbar-brand" href="index.html"><img id="logoPag" alt="" style="height:3rem; width:25rem;"></a>
+                <script>
+                    const logos = ["img/onePieceLogo.png", "img/narutoLogo.png", "img/dragonBallLogo.png", "img/pokemonLogo.png"]
+                    const imgElement = document.getElementById("logoPag")
+                    imgElement.src = logos[Math.floor(Math.random() * logos.length)]
+                </script>    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="mynavbar">
@@ -49,11 +54,11 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md">
-                    <p class="text-start fs-5">Animes populares</p>
+                    <p class="text-start fs-5 textoNormal">Animes populares</p>
                 </div>
                 <div class="col-md">
                     <a href="">
-                        <p class="text-end fs-5">Ver mas ></p>
+                        <p class="text-end fs-5 textoNormal">Ver mas ></p>
                     </a>
                 </div>
             </div>
@@ -61,38 +66,38 @@
                 <div class="col-md anime">
                     <a href="">
                         <img src="img/onepiece.jpg" class="foto" alt="">
-                        <p class="text-center">One Piece</p>
+                        <p class="text-center textoNormal">One Piece</p>
                     </a>
                 </div>
                 <div class="col-md anime">
                     <a href="">
                         <img src="img/naruto.jpg" class="foto" alt="">
-                        <p class="text-center">Naruto</p>
+                        <p class="text-center textoNormal">Naruto</p>
                     </a>
                 </div>
                 <div class="col-md anime">
                     <a href="">
                         <img src="img/dragonball.jpg" class="foto" alt="">
-                        <p class="text-center">Dragon Ball</p>
+                        <p class="text-center textoNormal">Dragon Ball</p>
                     </a>
                 </div>
                 <div class="col-md anime">
                     <a href="">
                     <img src="img/kimetsu.jpg" class="foto" alt="">
-                    <p class="text-center">Kimetsu No Yaiba</p>
+                    <p class="text-center textoNormal">Kimetsu No Yaiba</p>
                     </a>
                 </div>
                 <div class="col-md anime">
                     <a href="">
                         <img src="img/tokyo.jpg" class="foto" alt="">
-                        <p class="text-center">Tokyo Ghoul</p>
+                        <p class="text-center textoNormal">Tokyo Ghoul</p>
                     </a>
 
                 </div>
-                <div class="col-md anime">
+                <div class="col-md">
                     <a href="">
                         <img src="img/assasination.jpg" class="foto" alt="">
-                        <p class="text-center">Assasination Classroom</p>
+                        <p class="text-center textoNormal">Assasination Classroom</p>
                     </a>
                 </div>
             </div>
