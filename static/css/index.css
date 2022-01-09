@@ -1,15 +1,13 @@
 
 
-A:link {text-decoration: none }
+A:link {
+    text-decoration: none;
+}
 A:visited{
-    color: black;
-    font-family: arial;
-    text-decoration: none
+    text-decoration: none;
 }
 A:hover{
-    color: black;
-    font-family: arial;
-    text-decoration: none
+    text-decoration: none;
 }
 *{outline:none !important;}*:focus {outline: none !important;}textarea:focus, input:focus{outline: none !important;}	a{text-decoration: none !important;outline: none !important;}
 
@@ -24,5 +22,13 @@ A:hover{
 
 .textoNormal{
     margin-bottom: -0.1px;
-    color: white;
+    color: #ffc107;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.textoBoton{
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
 }

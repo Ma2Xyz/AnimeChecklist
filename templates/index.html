@@ -9,7 +9,13 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="../static/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display&display=swap" rel="stylesheet">
     <title>Anime Checklist</title>
 </head>
 <body class="bg-dark">
@@ -18,7 +24,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html"><img id="logoPag" alt="" style="height:3rem; width:25rem;"></a>
                 <script>
-                    const logos = ["img/onePieceLogo.png", "img/narutoLogo.png", "img/dragonBallLogo.png", "img/pokemonLogo.png"]
+                    const logos = ["../static/img/onePieceLogo.png", "../static/img/narutoLogo.png", "../static/img/dragonBallLogo.png", "../static/img/pokemonLogo.png", "../static/img/tokyoGhoulLogo.png"]
                     const imgElement = document.getElementById("logoPag")
                     imgElement.src = logos[Math.floor(Math.random() * logos.length)]
                 </script>    
@@ -39,12 +45,14 @@
                 </ul>
                 <form class="d-flex pe-5">
                     <input class="form-control me-2" type="text" placeholder="Search">
-                    <button class="btn btn-primary" type="button">Search</button>
+                    <button class="btn btn-primary bg-warning textoBoton text-center" type="button">Search</button>
                 </form>
                 <a href="html/login.html" class="pe-2">
-                    <button class="btn btn-primary" type="button">Iniciar Sesión</button>
+                    <button class="btn btn-primary bg-warning textoBoton text-center" type="button">Iniciar Sesión</button>
                 </a>
-                <button class="btn btn-primary" type="button">Registrarse</button>
+                <a href="html/register.html">
+                    <button class="btn btn-primary bg-warning textoBoton text-center" type="button">Registrarse</button>
+                </a>
               </div>
             </div>
           </nav>
@@ -65,38 +73,38 @@
             <div class="row">
                 <div class="col-md anime">
                     <a href="">
-                        <img src="img/onepiece.jpg" class="foto" alt="">
+                        <img src="../static/img/onepiece.jpg" class="foto" alt="">
                         <p class="text-center textoNormal">One Piece</p>
                     </a>
                 </div>
                 <div class="col-md anime">
                     <a href="">
-                        <img src="img/naruto.jpg" class="foto" alt="">
+                        <img src="../static/img/naruto.jpg" class="foto" alt="">
                         <p class="text-center textoNormal">Naruto</p>
                     </a>
                 </div>
                 <div class="col-md anime">
                     <a href="">
-                        <img src="img/dragonball.jpg" class="foto" alt="">
+                        <img src="../static/img/dragonball.jpg" class="foto" alt="">
                         <p class="text-center textoNormal">Dragon Ball</p>
                     </a>
                 </div>
                 <div class="col-md anime">
                     <a href="">
-                    <img src="img/kimetsu.jpg" class="foto" alt="">
+                    <img src="../static/img/kimetsu.jpg" class="foto" alt="">
                     <p class="text-center textoNormal">Kimetsu No Yaiba</p>
                     </a>
                 </div>
                 <div class="col-md anime">
                     <a href="">
-                        <img src="img/tokyo.jpg" class="foto" alt="">
+                        <img src="../static/img/tokyo.jpg" class="foto" alt="">
                         <p class="text-center textoNormal">Tokyo Ghoul</p>
                     </a>
 
                 </div>
                 <div class="col-md">
                     <a href="">
-                        <img src="img/assasination.jpg" class="foto" alt="">
+                        <img src="../static/img/assasination.jpg" class="foto" alt="">
                         <p class="text-center textoNormal">Assasination Classroom</p>
                     </a>
                 </div>
