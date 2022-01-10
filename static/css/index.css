@@ -11,24 +11,69 @@ A:hover{
 }
 *{outline:none !important;}*:focus {outline: none !important;}textarea:focus, input:focus{outline: none !important;}	a{text-decoration: none !important;outline: none !important;}
 
-.foto{
-    height: 6.5rem;
-    width: 13rem;
-    border-radius: 7%;
-}
-.anime{
-    margin-right: -12px;
-}
-
 .textoNormal{
-    margin-bottom: -0.1px;
     color: #ffc107;
     font-family: 'Playfair Display', serif;
 }
 
-
 .textoBoton{
     color: black;
     font-family: 'Bebas Neue', cursive;
-    font-size: 1.2rem;
+}
+#logoPag{
+    height: 10vh;
+    width: 50vw;
+}
+
+.navbarcss{
+    width: 100vw;
+}
+
+@media (min-width: 280px) {
+    .foto{
+        border-radius: 7%;
+    }
+
+    .anime{
+        margin-right: -12px;
+    }
+    
+    .textoNormal{
+        margin-bottom: -0.1px;
+    }
+
+    .textoBoton{
+        font-size: 4vw;
+        width: 23vw;
+        height: 7vh;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .textoBoton{
+        font-size: 1.701vw;
+        width: 11vw;
+        height: 6vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .foto{
+        border-radius: 7%;
+    }
+
+    .anime{
+        margin-right: -12px;
+    }
+    
+    .textoNormal{
+        margin-bottom: -0.1px;
+    }
+
+    .textoBoton{
+        font-size: 1.1vw;
+        height: 6vh;
+        width: 7vw;
+    }
 }
